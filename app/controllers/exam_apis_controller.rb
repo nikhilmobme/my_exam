@@ -14,7 +14,7 @@ class ExamApisController < ApplicationController
     end
     
 
-    def student_name 
+    def students 
 
       rec_token=params[:token]
       if my_token !=rec_token
