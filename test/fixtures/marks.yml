@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  marks: 1.5
+  subject: one
+  exam: one
+  student: one
+
+two:
+  marks: 1.5
+  subject: two
+  exam: two
+  student: two

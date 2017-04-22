@@ -1,0 +1,2 @@
+class ExamApisController < ApplicationController
+end
