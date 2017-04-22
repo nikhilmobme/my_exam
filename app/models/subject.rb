@@ -1,3 +1,3 @@
 class Subject < ApplicationRecord
-	has_many :mark
+	has_many :marks
 end

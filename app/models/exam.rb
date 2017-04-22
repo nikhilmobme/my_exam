@@ -1,3 +1,3 @@
 class Exam < ApplicationRecord
-	has_many :mark
+	has_many :marks
 end

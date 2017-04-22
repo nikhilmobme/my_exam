@@ -1,3 +1,3 @@
 class Student < ApplicationRecord
-	has_many :mark
+	has_many :marks
 end
