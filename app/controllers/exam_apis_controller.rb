@@ -53,9 +53,14 @@ class ExamApisController < ApplicationController
     	@mark=Mark.find_by(:id =>params[:student-id])
     	@subject=@mark.subjects
     	@mark=@mark.marks
-    	@subject.each do |sub|
+    	
+    	avg= mark[0]*.30+mark[1]* .20 +mark[2] *.40 + mark[3] *.10
+    	@student_info.avg=avg
+    	return student_info.to_json
 
-        end 
+
+
+        
 
      end
  end
